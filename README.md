@@ -121,5 +121,5 @@ with open('assets.txt', 'w') as outfile:
         json.dump(assets['balances'], outfile, default=myconverter)    
 
 data = pd.read_json("assets.txt")
-data.to_csv("Binance - assets.csv")
+data.to_csv("Binance - assets.csv") 
 ```
